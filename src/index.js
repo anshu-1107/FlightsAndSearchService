@@ -2,6 +2,8 @@ const express = require("express");
 const {PORT} = require("./config/serverConfig");
 const bodyParser = require("body-parser");
 
+const CityRepository = require("./repository/city_repository")
+
 const setup_and_start_server = async ()=>{
 
     // create the express object
